@@ -1,5 +1,10 @@
-export default function About() {
+import Layout from "../components/Layout"
+
+export default function AboutPage() {
   return (
-    <div>about</div>
+    <Layout title='About DJ Events'>
+      <h1>About</h1>
+      <p>This is bla bla</p>
+    </Layout>
   )
 }
