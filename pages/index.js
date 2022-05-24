@@ -7,3 +7,7 @@ export default function HomePage() {
     </Layout>
   );
 }
+
+export async function getServerSideProps() {
+  
+}
