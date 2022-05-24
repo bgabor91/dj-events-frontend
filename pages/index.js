@@ -9,5 +9,5 @@ export default function HomePage() {
 }
 
 export async function getServerSideProps() {
-  
+  const res = await fetch()
 }
